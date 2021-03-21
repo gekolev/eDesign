@@ -1,0 +1,1316 @@
+//setup
+$yellow:#f4dc00;
+$white:#ffffff;
+$gray: #666666;
+$lightgray: #f0f0f0;
+$darkgray: #262626;
+$black: #000;
+$blue: #009cf3;
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{ font-family: 'Montserrat', sans-serif;}
+.bold{
+    font-weight: 700;
+}
+.regular{
+    font-weight: 400;
+}
+.light{
+    font-weight: 300;
+}
+
+
+//destkop version -------------------------
+#test{
+    color: $yellow;
+}
+html {
+    font-size:16px;
+}
+body {
+    margin: 0;
+    background-color: white;
+}
+.abv-fold {
+    background-image: url('/assets/topimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    cursor: pointer;
+}
+.flex-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .hero{
+        margin-top:5%;
+        .crane{
+            width: 12%;
+        }
+        .play{
+            width: 10%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        h1{
+            color: $yellow;
+            margin:0;
+            font-size: 6.9vw;
+            text-align: center;
+        }
+        p{
+            color: $white;
+            text-align: center;
+            font-size: 1.2vw;
+        }
+    }
+}
+
+nav {
+    padding-top: 2vw;
+    img{
+        width:20vw;
+    }
+    .left{
+        float: left;
+        margin-left: 2%;
+    }
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 0;
+        margin-top:-30px;
+        a{
+            text-decoration: none;
+            display: block;
+            padding-right:2.5rem;
+            color: $white;
+            font-size: 1.2vw;
+        }
+    }
+ }
+
+.second{
+    background-image: url('/assets/section2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    h6{
+        text-align:center;
+        color: $gray;
+        margin:0;
+        padding-top:2.5%;
+        padding-bottom: 0%;
+        font-size: 1vw;
+    }
+    h3{
+        text-align:center;
+        color:$white;
+        font-size:4vw;
+        margin: 2.5%;
+    }
+    .categories{
+        margin-right: 15%;
+        margin-left: 15%;
+     ul{
+         list-style-type: none;
+         padding: 0;
+         display: flex;
+         li{
+             color: white;
+             flex: 1 1 auto;
+             font-size: 1vw;
+             
+             font-weight: 700;
+         }
+     }
+    }
+}
+
+.description{
+    font-size:1.2vw;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 15%;
+    color: white;
+    display: flex;
+    div{
+        width: 50%;
+    }
+    ul{
+        margin-left:5%;
+    }
+}
+.middle{
+    margin-left:25%;
+    margin-right:25%;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v-space{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+//ADD SLIDER // PICTURES // FUNCTINALITY?
+.third{
+    margin-top:-10%;
+    button{
+        margin-top:0;
+        border:none;
+        border-radius: 50px;
+        background-color: $yellow;
+        padding-left: 2%;
+        padding-right: 2%;
+        color: $white;
+        font-size:1vw;
+        p{
+            font-weight: 700;
+            padding: none;
+            margin: none;
+        }
+    }
+}
+
+.fourth{
+    h6{
+        text-align:center;
+        color: $gray;
+        margin:0;
+        padding-top:2.5%;
+        padding-bottom: 0%;
+        font-size: 1vw;
+    }
+    h3{
+        text-align:center;
+        color:$black;
+        font-size:4vw;
+        margin: 2.5%;
+    }
+}
+#paintParent{
+    height:100px;
+    position: relative;
+    img{
+        position:absolute;
+        left:75%;
+        top:-5%;
+    }
+}
+.fifth{
+    padding-left:15%;
+    padding-right:20%;
+    padding-bottom: 5%;
+    padding-top:5%;
+    display: flex;
+    background-color: $lightgray;
+    button{
+        margin-top:5%;
+        border:none;
+        border-radius: 50px;
+        background-color: $yellow;
+        padding-left: 5%;
+        padding-right: 5%;
+        color: $black;
+        font-size:1rem;
+        text-align: left;
+    }
+    div{ margin-right:5%;}
+    div{
+        p{text-align: left;}
+    }
+}
+
+.sixth{
+    background-image: url('/assets/trucks.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    h6{
+        text-align:center;
+        color: $gray;
+        margin:0;
+        padding-top:2.5%;
+        padding-bottom: 0%;
+        font-size: 1vw;
+    }
+    h3{
+        text-align:center;
+        color:$white;
+        font-size:4vw;
+        margin: 2.5%;
+    }
+    p{
+        color: $white;
+    }
+    div{
+        color: $white;
+        display: flex;
+        padding-bottom: 7%;
+        ul{
+            margin: 2.5%;
+            li{
+                font-weight: 700;
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+.awards{
+    padding-bottom: 2.5%;
+    background-color: $yellow;
+    h6{
+        text-align:center;
+        color: $gray;
+        margin:0;
+        padding-top:2.5%;
+        padding-bottom: 0%;
+        font-size: 1vw;
+    }
+    h2{
+        text-align:center;
+        color:$black;
+        font-size: 7vw;
+        margin-top: 2.5%;
+        margin-bottom:0;
+    }
+    h5{
+        text-align: center;
+        margin: 0;
+        font-size:1.3vw;
+    }
+    p{
+        margin-left:35%;
+        margin-right:35%;
+        margin-top:2.5%;
+    }
+    .icons{
+        display: flex;
+        flex-wrap: wrap ;
+        img{
+            margin-top:2.5%;
+            margin-bottom: 2.5%;
+            margin-left:2.5%;
+            margin-right:2.5%
+        }
+    }
+    .flex{
+        display: flex;
+        div{
+            margin-left:5%;
+            margin-right:5%;
+        }
+    }
+
+}
+
+.contact{
+    position:relative;
+    background-color: $black;
+    .forklift{
+        left:28%;
+        top:33%;
+        width: 80px;
+    }
+    #y1{
+        left:15%;
+        top:15%;
+    }
+    #y2{
+        left:25%;
+        top:25%;
+    }
+    #y3{
+        left:5%;
+        top:35%;
+    }
+    #y4{
+        left:75%;
+        top:15%;
+    }
+    #y5{
+        left:70%;
+        top:25%;
+    }
+    #y6{
+        left:90%;
+        top:40%;
+    }
+    #y7{
+        left:95%;
+        top:35%;
+    }
+    .absolute{
+        position: absolute;
+    }
+    h6{
+        text-align:center;
+        color: $gray;
+        margin:0;
+        padding-top:2.5%;
+        padding-bottom: 0%;
+    }
+    h3{
+        text-align:center;
+        color:$white;
+        font-size:3rem;
+    }
+
+    form{
+        padding-bottom: 3%;
+        display:flex;
+        flex-direction: column;
+        
+        .form{
+            font-weight: 400;
+            width:22vw;
+            margin-top:0;
+            border:none;
+            border-radius: 50px;
+            background-color: $yellow;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top: 0.5%;
+            padding-bottom:0.5%;
+            font-size:1vw;
+            margin-top:0.7%;
+            background-color: $darkgray;
+            color: $lightgray;
+        }
+        .textarea{
+            border-radius: 25px;
+        }
+        #budget{
+            width: 26vw;
+            option{
+                color: $lightgray;
+            }
+        }
+        #firstname{
+            background-color: $white;
+        }
+        .submit{
+            color: $black;
+            background-color: $yellow;
+            margin-top:0;
+            border:none;
+            border-radius: 50px;
+            padding-left: 2%;
+            padding-right: 2%;
+            padding-top:1%;
+            padding-bottom: 1%;
+            font-size:1vw;
+            margin-top:1%;
+            font-weight: 700;
+        }
+    }
+}
+
+
+footer{
+    margin-top:-2%;
+    color: white;
+    background-color: $darkgray;
+    #logocenter{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-top:2%;
+    }
+    #maps{
+        display: block;
+        color: $yellow;
+    }
+    .social{
+        display: flex;
+        padding-bottom: 2%;
+        margin-top:2%
+    }
+    .items{
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    form{
+        margin-bottom: 2%;
+        display: flex;
+        #email{
+            padding: 0.5%;
+        }
+        .submit{
+            color: $white;
+            padding: 0.7%;
+            margin:0;
+            background-color:$blue;
+            cursor: pointer;
+            text-decoration: none;
+            border: none;
+            :focus{
+                outline:none;
+            }
+        }
+    }
+    .border-top{
+        border-top:1px solid $gray;
+        padding-top:2%;
+    }
+}
+
+//SLIDER???
+/* Slideshow container */
+
+.blog-slider__container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+    height: auto;
+    .blogSlides img {
+     
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  
+  /* Next & previous buttons */
+  
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: $black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  
+  /* Position the "next button" to the right */
+  
+  .prev {
+    left: -10%;
+    border-radius: 3px 0 0 3px;
+  }
+  .next {
+    right: -10%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  /* On hover, add a black background color with a little bit see-through */
+  
+  .prev:hover,
+  .next:hover {
+    background-color: $yellow;
+  }
+  
+  /* Fading animation */
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.75s;
+    animation-name: fade;
+    animation-duration: 0.75s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+
+
+
+//mobile version - one column - limited capability
+@media only screen and (max-width: 900px) {
+    nav{
+        img{
+            width: 50vw;
+        }
+    }
+    .main-nav {
+        list-style-type: none;
+        display: none;
+      }
+      
+      .nav-links,
+      .logo {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.7);
+      }
+      
+      .main-nav li {
+        text-align: center;
+        margin: 15px auto;
+      }
+      .main-nav li a {
+        font-size: 2rem;
+        padding-right:0;
+      }
+      
+      .logo {
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      
+      .navbar-toggle {
+        position: absolute;
+        top: 2.5%;
+        right: 2.5%;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 48px;
+        margin-right:2%;
+      }
+      
+      .show {
+        display: block;
+      }
+
+      .prev {
+        left: -20%;
+        border-radius: 3px 0 0 3px;
+      }
+      .next {
+        right: -20%;
+        border-radius: 3px 0 0 3px;
+      }
+      
+
+      .flex-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .hero{
+            margin-top:5%;
+            .crane{
+                width: 30%;
+                padding-bottom: 5%;
+            }
+            .play{
+                width: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+            h1{
+                color: $yellow;
+                margin:0;
+                font-size: 6.9vw;
+                text-align: center;
+            }
+            p{
+                color: $white;
+                text-align: center;
+                font-size: 3vw;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+        }
+    }
+
+    .second{
+
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 2vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:4vw;
+            margin: 2.5%;
+        }
+        .description{
+                flex-direction: column;
+                font-size: 2.5vw;
+                div{
+                    width:100%;
+                }
+        }
+        .categories{
+            margin-right: 15%;
+            margin-left: 15%;
+         ul{
+             list-style-type: none;
+             padding: 0;
+             display: flex;
+             li{
+                 color: white;
+                 flex: 1 1 auto;
+                 font-size: 1.5vw;
+                 
+                 font-weight: 700;
+             }
+         }
+        }
+    }
+
+    .third{
+        margin-top:-10%;
+        button{
+            margin-top:0;
+            border:none;
+            border-radius: 50px;
+            background-color: $yellow;
+            padding-left: 2%;
+            padding-right: 2%;
+            color: $white;
+            font-size:2vw;
+            p{
+                font-weight: 700;
+                padding: none;
+                margin: none;
+            }
+        }
+    }
+
+    .fourth{
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 2vw;
+        }
+        h3{
+            text-align:center;
+            color:$black;
+            font-size:4vw;
+            margin: 2.5%;
+        }
+        p{
+            font-size:2.5vw;
+        }
+    }
+
+    .fifth{
+        padding-left:15%;
+        padding-right:20%;
+        padding-bottom: 5%;
+        padding-top:5%;
+        display: flex;
+        flex-direction: column;
+        background-color: $lightgray;
+        button{
+            margin-top:5%;
+            border:none;
+            border-radius: 50px;
+            background-color: $yellow;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: $black;
+            font-size:2vw;
+            text-align: left;
+        }
+        div{ margin-right:5%;}
+        div{
+            p{text-align: left;
+            font-size:2.5vw;}
+        }
+    }
+
+
+    .sixth{
+        background-image: url('/assets/trucks.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 2.5vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:4vw;
+            margin: 2.5%;
+        }
+        p{
+            color: $white;
+            font-size: 2.5vw;
+        }
+        div{
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            ul{
+                margin: 2.5%;
+                li{
+                    font-weight: 700;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+
+    .awards{
+        padding-bottom: 2.5%;
+        background-color: $yellow;
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 2.5vw;
+        }
+        h2{
+            text-align:center;
+            color:$black;
+            font-size: 10vw;
+            margin-top: 2.5%;
+            margin-bottom:0;
+        }
+        h5{
+            text-align: center;
+            margin: 0;
+            font-size:5vw;
+        }
+        p{
+            margin-left:10%;
+            margin-right:10%;
+            margin-top:2.5%;
+            font-size: 2.5vw;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap ;
+            img{
+                margin-top:2.5%;
+                margin-bottom: 2.5%;
+                margin-left:2.5%;
+                margin-right:2.5%
+            }
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            div{
+                margin-top:5%;
+                margin-left:5%;
+                margin-right:5%;
+            }
+        }
+    
+    }
+
+    .contact{
+        position:relative;
+        background-color: $black;
+        .forklift{
+            left:28%;
+            top:33%;
+            width: 80px;
+            display: none;
+        }
+        #y1{
+            left:15%;
+            top:15%;
+            display: none;
+        }
+        #y2{
+            left:25%;
+            top:25%;
+            display: none;
+
+        }
+        #y3{
+            left:5%;
+            top:35%;
+            display: none;
+
+        }
+        #y4{
+            left:75%;
+            top:15%;
+            display: none;
+
+        }
+        #y5{
+            left:70%;
+            top:25%;
+            display: none;
+
+        }
+        #y6{
+            left:90%;
+            top:40%;
+            display: none;
+
+        }
+        #y7{
+            left:95%;
+            top:35%;
+            display: none;
+
+        }
+        .absolute{
+            position: absolute;
+        }
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size:2.5vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:8vw;
+        }
+    
+        form{
+            padding-bottom: 3%;
+            display:flex;
+            flex-direction: column;
+            
+            .form{
+                font-weight: 400;
+                width:60vw;
+                margin-top:0;
+                border:none;
+                border-radius: 50px;
+                background-color: $yellow;
+                padding-left: 2%;
+                padding-right: 2%;
+                padding-top: 2%;
+                padding-bottom:2%;
+                font-size:4vw;
+                margin-top:3%;
+                background-color: $darkgray;
+                color: $lightgray;
+            }
+            .textarea{
+                border-radius: 25px;
+            }
+            #budget{
+                width: 64vw;
+                option{
+                    color: $lightgray;
+                }
+            }
+            #firstname{
+                background-color: $white;
+            }
+            .submit{
+                color: $black;
+                background-color: $yellow;
+                border:none;
+                border-radius: 50px;
+                padding-left: 5%;
+                padding-right: 5%;
+                font-size:4vw;
+                margin-top:5%;
+                font-weight: 700;
+            }
+        }
+    }
+
+
+
+
+}
+@media only screen and (max-width: 450px) {
+    #info{
+        font-size:3vw;
+    }
+    .main-nav {
+        margin-top:20px;
+    }
+    .main-nav li a {
+        font-size: 3vw;
+        padding-right: 0;
+      }
+      .navbar-toggle {
+        position: absolute;
+        top: 2.5%;
+        right: 2.5%;
+        cursor: pointer;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 24px;
+        margin-right:2%;
+      }
+    
+    .flex-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .hero{
+            margin-top:5%;
+            .crane{
+                width: 30%;
+                padding-bottom: 5%;
+            }
+            .play{
+                width: 10%;
+                margin-top: 10%;
+                margin-bottom: 10%;
+            }
+            h1{
+                color: $yellow;
+                margin:0;
+                font-size: 6.9vw;
+                text-align: center;
+            }
+            p{
+                color: $white;
+                text-align: center;
+                font-size: 5vw;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+        }
+    }
+
+    .second{
+
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 4vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:5vw;
+            margin: 2.5%;
+        }
+        .description{
+                flex-direction: column;
+                font-size: 4vw;
+                div{
+                    width:100%;
+                }
+        }
+        .categories{
+            display: none;
+            margin-right: 15%;
+            margin-left: 15%;
+         ul{
+             list-style-type: none;
+             padding: 0;
+             display: flex;
+             li{
+                 color: white;
+                 flex: 1 1 auto;
+                 font-size: 1.5vw;
+                 font-weight: 700;
+             }
+         }
+        }
+    }
+
+    .third{
+        margin-top:-10%;
+        button{
+            margin-top:0;
+            border:none;
+            border-radius: 50px;
+            background-color: $yellow;
+            padding-left: 2%;
+            padding-right: 2%;
+            color: $white;
+            font-size:3vw;
+            p{
+                font-weight: 700;
+                padding: none;
+                margin: none;
+            }
+        }
+    }
+    .fourth{
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 4vw;
+        }
+        h3{
+            text-align:center;
+            color:$black;
+            font-size:5vw;
+            margin: 2.5%;
+        }
+        p{
+            font-size:4vw;
+        }
+    }
+
+    .fifth{
+        padding-left:15%;
+        padding-right:20%;
+        padding-bottom: 5%;
+        padding-top:5%;
+        display: flex;
+        background-color: $lightgray;
+        button{
+            margin-top:5%;
+            border:none;
+            border-radius: 50px;
+            background-color: $yellow;
+            padding-left: 5%;
+            padding-right: 5%;
+            color: $black;
+            font-size:5vw;
+            text-align: left;
+        }
+        div{ margin-right:5%;}
+        div{
+            p{text-align: left;
+            font-size:4vw;}
+        }
+    }
+    .sixth{
+        background-image: url('/assets/trucks.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 6vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:5vw;
+            margin: 2.5%;
+        }
+        p{
+            color: $white;
+            font-size: 4vw;
+        }
+        div{ font-size: 4vw;
+            color: $white;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: left;
+            ul{
+                margin: 2.5%;
+                li{
+                    font-weight: 700;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+    .awards{
+        padding-bottom: 2.5%;
+        background-color: $yellow;
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size: 6vw;
+        }
+        h2{
+            text-align:center;
+            color:$black;
+            font-size: 10vw;
+            margin-top: 2.5%;
+            margin-bottom:0;
+        }
+        h5{
+            text-align: center;
+            margin: 0;
+            font-size:5vw;
+        }
+        p{
+            margin-left:10%;
+            margin-right:10%;
+            margin-top:2.5%;
+            font-size: 4vw;
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap ;
+            img{
+                margin-top:2.5%;
+                margin-bottom: 2.5%;
+                margin-left:2.5%;
+                margin-right:2.5%
+            }
+        }
+        .flex{
+            display: flex;
+            flex-direction: column;
+            div{
+                margin-top:5%;
+                margin-left:5%;
+                margin-right:5%;
+            }
+        }
+    
+    }
+
+    .contact{
+        position:relative;
+        background-color: $black;
+        .forklift{
+            left:28%;
+            top:33%;
+            width: 80px;
+            display: none;
+        }
+        #y1{
+            left:15%;
+            top:15%;
+            display: none;
+        }
+        #y2{
+            left:25%;
+            top:25%;
+            display: none;
+
+        }
+        #y3{
+            left:5%;
+            top:35%;
+            display: none;
+
+        }
+        #y4{
+            left:75%;
+            top:15%;
+            display: none;
+
+        }
+        #y5{
+            left:70%;
+            top:25%;
+            display: none;
+
+        }
+        #y6{
+            left:90%;
+            top:40%;
+            display: none;
+
+        }
+        #y7{
+            left:95%;
+            top:35%;
+            display: none;
+
+        }
+        .absolute{
+            position: absolute;
+        }
+        h6{
+            text-align:center;
+            color: $gray;
+            margin:0;
+            padding-top:2.5%;
+            padding-bottom: 0%;
+            font-size:6vw;
+        }
+        h3{
+            text-align:center;
+            color:$white;
+            font-size:8vw;
+        }
+    
+        form{
+            padding-bottom: 3%;
+            display:flex;
+            flex-direction: column;
+            
+            .form{
+                font-weight: 400;
+                width:60vw;
+                margin-top:0;
+                border:none;
+                border-radius: 50px;
+                background-color: $yellow;
+                padding-left: 2%;
+                padding-right: 2%;
+                padding-top: 2%;
+                padding-bottom:2%;
+                font-size:4vw;
+                margin-top:3%;
+                background-color: $darkgray;
+                color: $lightgray;
+            }
+            .textarea{
+                border-radius: 25px;
+            }
+            #budget{
+                width: 64vw;
+                option{
+                    color: $lightgray;
+                }
+            }
+            #firstname{
+                background-color: $white;
+            }
+            .submit{
+                color: $black;
+                background-color: $yellow;
+                border:none;
+                border-radius: 50px;
+                padding-left: 5%;
+                padding-right: 5%;
+                font-size:4vw;
+                margin-top:5%;
+                font-weight: 700;
+            }
+        }
+    }
+
+}
