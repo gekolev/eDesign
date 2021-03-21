@@ -29,7 +29,7 @@ body {
 }
 
 .abv-fold {
-  background-image: url("/assets/topimage.jpg");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/8af85677592181.6057b54572eb0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -115,7 +115,7 @@ nav ul a {
 }
 
 .second {
-  background-image: url("/assets/section2.png");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/98a58977592181.6057b5c1916ee.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -280,7 +280,7 @@ nav ul a {
 }
 
 .sixth {
-  background-image: url("/assets/trucks.png");
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/85004c77592181.6057b5c191c74.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -831,7 +831,7 @@ footer .border-top {
     font-size: 2.5vw;
   }
   .sixth {
-    background-image: url("/assets/trucks.png");
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/85004c77592181.6057b5c191c74.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1207,7 +1207,7 @@ footer .border-top {
     font-size: 4vw;
   }
   .sixth {
-    background-image: url("/assets/trucks.png");
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/85004c77592181.6057b5c191c74.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
